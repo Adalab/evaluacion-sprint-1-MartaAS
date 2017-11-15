@@ -5,5 +5,27 @@ body{
 header{
 	background-color: #DAF7A6;
 	text-transform: uppercase;
+	display: flex;
+	flex-wrap: wrap;
+}
 
+}
+.logo{
+	margin: 200px;
+	width: 100%;
+	height: 55px;
+}
+.menu{
+	display: flex;
+	align-items: flex-end;
+}
+.imagen{
+	background: url('../images/imgprincipal.jpeg');
+	position: relative;
+}
+.texto{
+	position: absolute;
+}
+.footer{
+	background-color: black;
 }
