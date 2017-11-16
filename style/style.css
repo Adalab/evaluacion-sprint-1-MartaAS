@@ -3,12 +3,11 @@
 	font-family: 'Rubik', serif;
 	margin: 0px;
 	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
+
 }
 /*header*/
-header{
-	background-color: #DAF7A6;
+.header{
+	background-color: white;
 	position:fixed;
 	top: 0px;
 	left: 0px;
@@ -17,6 +16,7 @@ header{
 	padding: 10px;
 	display: flex;
 	flex-direction: column;
+
 
 }
 .logo{
@@ -32,12 +32,16 @@ ul {
 	list-style: none;
 	display: flex;
 	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-content: center;
 }
 li{
 	padding: 10px;
 }
 .menu{
-
+	display: flex;
+	justify-content: flex-start;
 	list-style: none;
 }
 a{
@@ -79,9 +83,19 @@ span{
 }
 .politica{
 }
-/*responsive*/
-@media all and(max width: 500px;){
-	.ul{flex-direction: column;
+.containerformu{
+	padding-top: 200px;
 
-	}
+}
+/*responsive*/
+@media all and (min-width: 500px){
+	.header {
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+}
+
+.contenedormenu {
+padding-right: 20px;
+}
 }
