@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+</head>
+<body class="principal">
+	<header class="header">
+		<div>
+		<a href="https://adalab.es/" target="_blank"><img class="logo" src="images/logo.png" alt="logo adalab"></a>
+	</div>
+		<nav class="menu">
+			<ul>
+				<li>blog</li>
+				<li>
+					<a href="formulario.html" title="Contacto">contacto</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<div>
+		<form action="/signup" method="get" class="formulario">
+		<p>En Adalab estamos encantados de darte la información que necesitas. Hemos creado formularios específicos para inscribirte como alumna. Para ser voluntario/a y para empresas que quieran acoger a nuestras alumnas. Para otras consultas completa el siguiente formulario y nos pondremos en contacto contigo. Gracias<p>
+			<div class="nombreformu">
+				<p>nombre</p>
+  			<input id="nombre" type="text" name="firstname">
+			</div>
+			<div nombre="apellidoformu">
+				<p>apellido<p>
+				<input id="apellido" type="text" name="surname">
+			</div>
+			<div class="correoformu">
+				<p>correo electronico</p>
+				<input type="email" name="mail">
+			</div>
+			<div class="telefonoformu">
+				<p>telefono movil</p>
+				<input type="text" name="telephone">
+			</div>
+			<div>
+				<p>mensaje</p>
+				<textarea type="text" name="name" rows="8" cols="20"></textarea>
+			</div>
+		</form>
+	</div>
+	<footer class="footer">
+		<div>
+			<span class="copy">Adalab&copy 2017</span>
+			<span class="politica">politica de cookies</span>
+		</div>
+	</footer>
+</body>
+</html>
