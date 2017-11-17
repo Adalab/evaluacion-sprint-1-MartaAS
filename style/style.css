@@ -37,13 +37,14 @@ ul {
 	align-content: center;
 }
 li{
-	padding: 10px;
+	margin-right: 20px;
 }
 .menu{
 	display: flex;
 	justify-content: flex-start;
 	list-style: none;
 }
+
 a{
 	color: black;
 	text-decoration: none;
@@ -51,7 +52,7 @@ a{
 .imagen{
 	background: url('../images/imgprincipal.jpeg');
 	background-repeat: no-repeat;
-	background-position: center 80px;
+	background-position: center 110px;
 	background-size: cover;
 	height: 100vh;
 	display: flex;
@@ -60,13 +61,39 @@ a{
 
 }
 .texto{
-	padding-top: 300px;
+	margin-top: 180px;
+	padding-top: 80px;
 	width: 50px;
 	height: 100px;
 	padding-left: 30px;
 	text-transform: capitalize;
-	font-size: 30px;
+	font-size: 15px;
 	color: #555555
+
+}
+.parrafo{
+	padding-top: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.campos{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+
+	padding-bottom: 20px;
+}
+input{
+	border-radius: 5px;
+	background-color: #f5f5f5;
+}
+textarea{
+	border-radius: 5px;
+	background-color: #f5f5f5;
+}
+.enviar{
+	color: white;
+	margin-top: 15px;
 
 }
 /*footer*/
@@ -79,13 +106,25 @@ span{
 	color: white;
 
 }
-.copy{
+.elementosfooter{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: space-between;
+	margin-left: 15px;
 }
 .politica{
+	margin-left: 20px;
 }
 .containerformu{
-	padding-top: 200px;
-
+	padding-top: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.formulario{display: flex;
+flex-direction: row;
+align-items: center;
 }
 /*responsive*/
 @media all and (min-width: 500px){
@@ -97,5 +136,32 @@ span{
 
 .contenedormenu {
 padding-right: 20px;
+}
+.blog:hover{
+	color:#3CDBC0;
+	border-bottom: 4px solid #3CDBC0;
+
+}
+.contacto:hover{
+	color:#3CDBC0;
+	border-bottom: 4px solid #3CDBC0;
+}
+.containerformu input, textarea {
+	width: 500px;
+}
+input.enviar {
+	width: 90px;
+}
+.imagen{
+	height: 130vh;
+}
+/*
+.imagen{
+	margin-top: 50px;
+}*/
+.texto {
+	font-size: 30px;
+	margin-top: 200px;
+	margin-left: 20px;
 }
 }
