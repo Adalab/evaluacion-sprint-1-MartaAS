@@ -43,7 +43,9 @@ li{
 	display: flex;
 	justify-content: flex-start;
 	list-style: none;
+	color:
 }
+
 
 a{
 	color: black;
@@ -115,6 +117,10 @@ span{
 }
 .politica{
 	margin-left: 20px;
+	color: #aaaaaa;
+}
+.copy{
+	color: #555555;
 }
 .containerformu{
 	padding-top: 150px;
@@ -146,6 +152,7 @@ padding-right: 20px;
 	color:#3CDBC0;
 	border-bottom: 4px solid #3CDBC0;
 }
+
 .containerformu input, textarea {
 	width: 500px;
 }
@@ -155,13 +162,17 @@ input.enviar {
 .imagen{
 	height: 130vh;
 }
-/*
-.imagen{
-	margin-top: 50px;
-}*/
 .texto {
-	font-size: 30px;
+	font-size: 25px;
 	margin-top: 200px;
 	margin-left: 20px;
 }
 }
+
+@media all and (min-width: 900px){
+	.texto {
+		font-size: 40px;
+		margin-top: 200px;
+		margin-left: 100px;
+	}
+	}
